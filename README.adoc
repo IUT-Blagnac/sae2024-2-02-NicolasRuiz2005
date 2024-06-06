@@ -51,7 +51,7 @@ endif::[]
 - [ ] 1
 - [ ] 2
 - [ ] 3
-- [X] 4
+- [x] 4
 
 // == Objectives
 == Objectifs
