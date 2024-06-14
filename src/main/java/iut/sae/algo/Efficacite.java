@@ -3,7 +3,7 @@ package iut.sae.algo;
 
 public class Efficacite{
 
-    /* Méthode RLE simplicité
+    /* Méthode RLE efficacite
      * 
      * Avec un String builder, plutôt que de concaténer des chaînes de caractères
      */
