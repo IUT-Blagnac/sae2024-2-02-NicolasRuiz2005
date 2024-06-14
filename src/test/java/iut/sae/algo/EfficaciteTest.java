@@ -93,7 +93,6 @@ public class EfficaciteTest extends TestCase{
          assertEquals("abc", (Efficacite.unRLE("111a111b111c", 2)));
          assertEquals("abc", (Efficacite.unRLE("311a311b311c", 3)));
          assertEquals("aaaaaaaaaaaaaaaaaaabc", (Efficacite.unRLE("919a9a1a311b311c", 3)));
-
       }
       catch(Exception e){
          fail("Exception inatendue");

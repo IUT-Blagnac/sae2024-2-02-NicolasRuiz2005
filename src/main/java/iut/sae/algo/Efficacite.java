@@ -81,50 +81,12 @@ public class Efficacite{
 
 
     public static String unRLE(String in, int iteration) throws AlgoException {
-        // On vérifie si la chaîne d'entrée est vide
-        if (in == null || in.isEmpty()) {
-            return "";
+
+        for (int i = 0; i < iteration; i++) {
+            in = unRLE(in);
         }
 
-        // On vérifie si l'itération est valide
-        if (iteration < 1) {
-            throw new AlgoException("L'itération doit être supérieure à 0");
-        }
-
-
-        StringBuilder chaineFinale = new StringBuilder(); // Chaîne finale
-        StringBuilder chaineNombre = new StringBuilder(); 
-        int cpt = 0; // Compteur de répétitions
-
-        for (int i = 0; i < in.length(); i++) {
-            char actuel = in.charAt(i); // Caractère actuel
-
-            // On regarde si le caractère actuel est un chiffre et si le caractère suivant est un chiffre
-            // Si c'est le cas, on augmente i de 1 pour sauter le caractère suivant 
-            if (Character.isDigit(actuel) && Character.isDigit(in.charAt(i + 1))) {
-                i++;
-            } else if (Character.isDigit(actuel)) {
-                chaineNombre.append(actuel);
-            } else {
-                // Si la chaîne de nombre n'est pas vide
-                if (chaineNombre.length() > 0) {
-                    // On convertit la chaîne de nombre en entier (le nombre de répétitions)
-                    cpt = Integer.parseInt(chaineNombre.toString());
-
-                    // On ajoute le caractère (cpt) fois à la chaîne finale
-                    for (int j = 0; j < cpt; j++) {
-                        chaineFinale.append(actuel);
-                    }
-
-                    // On réinitialise le compteur et la chaîne de nombre
-                    cpt = 0;
-                    chaineNombre.setLength(0);
-                }
-            }
-
-        }
-
-        return chaineFinale.toString();
+        return in;
     }
 }
 
