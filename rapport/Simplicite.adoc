@@ -1,0 +1,35 @@
+# Classement Simplicité
+
+RUIZ Nicolas 
+
+
+## Classement : 
+
+[options="header,footer"]
+|=======================
+
+| Place | Nom | Note
+| 1 | 66simplicite.java | 19/20 
+| 2 | 12simplicite.java | 16.5/20 
+| 3 | 38simplicite.py   | 15/20 
+| 4 | 28simplicite.java | 13/20 
+| 5 | 28simplicite.py   | 13/20 
+
+|=======================
+
+## Détails de classement : 
+
+* 1) *66simplicite.java* (19/20) : noté sur 20 selon le barème, le code est complet et rempli les test donnée initialement et ceux supplémentaire. +
+Les méthodes RLE sont assez simple et intuitive, cependant les méthodes uneRLE sont un peu plus complexes à comprendre au premier abord, mais restent assez simples dans leur implémentation. Le noms des variables sont très explicite ce qui facilite encore plus la compréhension du code. Cependant il n'y a tout de même aucun commentaire, même s'il ne sont pas vraiment nécessaire  je pense que c'est toujours mieux d'en avoir. +
+
+* 2) *12simplicite.java* (16.5/20) : noté sur 17 selon le barème, le code est complet et rempli les test donnée initialement et ceux supplémentaire, cependant la fonction main est présente dans le fichier alors qu'elle ne doit pas y être. +
+Le code est très lisible et compréhensible et les noms de variables sont très explicite, cependant il n'y a aucun commentaire. +
+
+* 3) *38simplicite.java* (15/20) : noté sur 20 selon le barème, le code est complet et rempli les test donnée initialement et ceux supplémentaire. +
+Le code est globalement compréhensible mais la partie de unRLE est assez complexe et pourrait être bien plus simplifié pour être plus lisible. De plus il n'y a aucun commentaire. +
+
+* 4) *28simplicite.java* (13/20) : noté sur 15 selon le barème, car il n'y a pas les deux algorithmes unRLE cependant le code présent est complet et rempli les test donnée plus ceux supplémentaires. +
+ Le code de RLE simple est très lisible et compréhensible. Le code de RLE récursif pourrait être simplifié selon moi en appelant la fonction RLE simple en focntion du nombre d'iteration. Etant une notation subjective c'est pourquoi j'enlève quelques points cependant malgré la technique plutôt complexe utilisée, le code est très lisible et compréhensible. Globalement j'enlève des points surtout pour l'abscence de deux algorithmes. +
+
+* 5) *28simplicite.py* (13/20) : noté sur 15 selon le barème, car il n'y a pas les deux algorithmes unRLE cependant le code présent est complet et rempli les test donnée plus ceux supplémentaires. +
+ Le code est très similaire a 28simplicite.java et c'est pourquoi il obtient la même note, il est très facilement compréhensible. Cependant il se place en dessous car il ne contient aucun commentaire. +

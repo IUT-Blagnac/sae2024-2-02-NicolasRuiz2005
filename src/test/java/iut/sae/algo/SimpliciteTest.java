@@ -92,7 +92,10 @@ public class SimpliciteTest extends TestCase{
 
          assertEquals("abc", (Simplicite.unRLE("111a111b111c", 2)));
          assertEquals("abc", (Simplicite.unRLE("311a311b311c", 3)));
-         assertEquals("11bc", (Simplicite.unRLE("919a9a1a311b311c", 3)));
+         assertEquals("abc", (Simplicite.unRLE("13211321322113311213212322211a13211321322113311213212322211b13211321322113311213212322211c", 10)));
+         
+
+
       }
       catch(Exception e){
          fail("Exception inatendue");
