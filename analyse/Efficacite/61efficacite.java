@@ -1,5 +1,5 @@
 package iut.sae.algo;
-public class efficacite2 {
+public class efficacite {
 
     public static String RLE(String texte) {
         // si le texte est null ou vide, retourne une chaîne vide

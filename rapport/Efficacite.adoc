@@ -25,12 +25,14 @@ RUIZ Nicolas
 * 2) *61efficacite.java* (20/20) : noté sur 20 selon le barème, le code est complet et rempli les test donnée plus ceux supplémentaires. +
 Le premier algorithme RLE est de compléxité O(n) et le second est de compléxité O(n x iterations). +
 Le premier algortihme unRLE est de compléxité O(n) et le second est de compléxité O(n x iterations). +
-Le code est très lisible et très efficace avec par exemple avec l'utilisations de StringBuilder. Il arrive a la même position, ex aequo avec 06efficacite.java +
+Selon Codacy le code est de complexité 6.
+Le code est très lisible et très efficace avec par exemple avec l'utilisations de StringBuilder. +
 
 
-* 3) *06efficacite.java* (20/20) : noté sur 20 selon le barème, le code est complet et rempli les test donnée plus ceux supplémentaires. +
+* 3) *06efficacite.java* (19.5/20) : noté sur 20 selon le barème, le code est complet et rempli les test donnée plus ceux supplémentaires. +
 Le premier algorithme RLE est de compléxité O(n) et le second est de compléxité O(n x iterations). +
 Le premier algortihme unRLE est de compléxité O(n) et le second est de compléxité O(n x iterations). +
+Selon Codacy le code est de complexité 7.
 Le code est très lisible et très efficace avec par exemple l'utilisations de StringBuilder. +
 
 
@@ -39,4 +41,4 @@ Le code est très lisible et très efficace avec par exemple l'utilisations de S
 
 * 5) *19efficacite.py* (12.5/20) : noté sur 12.5 selon le barème, le code est incomplet, il manque 3 algorithme. Cependant l'algorithme présent rempli les test donnée initialement et ceux supplémentaire. +
 Le code présent est très lisible et très efficace. Il est de compléxité O(n). +
-
+Le code est de complexité 6 selon Codacy. +
