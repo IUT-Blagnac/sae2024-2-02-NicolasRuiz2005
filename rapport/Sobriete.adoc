@@ -1,0 +1,33 @@
+# Classement Sobriété
+
+RUIZ Nicolas 
+
+
+## Classement : 
+
+[options="header,footer"]
+|=======================
+
+| Place | Nom | Note
+| 1 |  | 19/20 
+| 2 |  | 16.5/20 
+| 3 |    | 15/20 
+| 4 |  | 13/20 
+| 5 |    | 13/20 
+
+|=======================
+
+## Détails de classement : 
+
+* 1) *66simplicite.java* (19/20) : noté sur 20 selon le barème, le code est complet et rempli les test donnée initialement et ceux supplémentaire. +
+
+
+* 2) *12simplicite.java* (16.5/20) : noté sur 17 selon le barème, le code est complet et rempli les test donnée initialement et ceux supplémentaire, cependant la fonction main est présente dans le fichier alors qu'elle ne doit pas y être. +
+
+
+* 3) *38simplicite.java* (15/20) : noté sur 18 selon le barème, le code est complet et rempli les test donnée initialement mais pas ceux supplémentaires. +
+
+
+
+* 4) *15sobriete.java* (0/20) : hors concours selon le barème, le code ne compile pas, de plus il est incomplet il manque deux des algorithmes principaux. +  
+
