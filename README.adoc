@@ -35,6 +35,9 @@ endif::[]
 :joular: https://www.noureddine.org/research/joular[Joular]
 :RLE: https://fr.wikibooks.org/wiki/Compression_de_donn%C3%A9es/Run-length_encoding[Run-Length Encoding]
 
+[abstract]
+Les rapports d'évaluations sont accéssible depuis la partie 4. (Livrable) de ce README
+
 == Auteur(s)
 
 === Du sujet...
@@ -171,7 +174,11 @@ Vous utiliserez le dépôt initial qui vous aura été attribué via classroom p
 
 === Phase 2 (deadline : **vendredi 21 juin 2024** à minuit)
 
-* [ ] Le rapport d'évaluation des algorithmes (e.g., asciidoc ou PDF). Pour chaque catégorie, vous devrez désigner qui est 1er, 2ème, 3ème, ... (avec possibilité d’ex-aequo si le hasard vous a attribué des algos similaires). Il doit se trouver dans le répertoire `rapport` de votre dépôt.
+* [ ] Le rapport d'évaluation des algorithmes (e.g., asciidoc ou PDF). Pour chaque catégorie, vous devrez désigner qui est 1er, 2ème, 3ème, ... (avec possibilité d’ex-aequo si le hasard vous a attribué des algos similaires). Il doit se trouver dans le répertoire `rapport` de votre dépôt. +
+link:rapport/Simplicite.adoc[Rapport d'évaluation Simplicité] +
+link:rapport/Efficacite.adoc[Rapport d'évaluation Efficacité] + 
+link:rapport/Sobriete.adoc[Rapport d'évaluation Sobriété] +
+
 * [ ] Les codes de test, d'évaluation ou de mesure. Ils doivent se trouver dans le répertoire `analyse` de votre dépôt.
 * [ ] Les références des librairies/outils utilisés (pour ceux non fournis). Elles doivent être listées dans la sous-section (Références) ci-dessous.
 * [ ] La chaîne de compilation et exécutable, ou paquetage selon les standards du langage (comment exécuter vos codes d'évaluation). Cette description doit se trouver dans vos rapports.

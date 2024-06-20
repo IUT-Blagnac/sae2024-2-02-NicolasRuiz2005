@@ -9,25 +9,25 @@ RUIZ Nicolas
 |=======================
 
 | Place | Nom | Note
-| 1 |  | 19/20 
-| 2 |  | 16.5/20 
-| 3 |    | 15/20 
-| 4 |  | 13/20 
-| 5 |    | 13/20 
+| 1 | 63sobriete.java | 19/20 
+| 2 | 42sobriete.java | 17/20 
+| 3 | 50sobriete.java | 16/20 
+| 4 | 15sobriete.java | 0/20
 
 |=======================
 
 ## Détails de classement : 
 
-* 1) *66simplicite.java* (19/20) : noté sur 20 selon le barème, le code est complet et rempli les test donnée initialement et ceux supplémentaire. +
+* 1) *63sobriete.java* (19/20) : noté sur 20 selon le barème, le code est complet et rempli les test donnée initialement et ceux supplémentaire. +
+Les algorithmes sont très sobre globalement et il y a une petite complexité globale de 5 selon Codacy. De plus les algorithmes sont très efficaces et consomment peu de mémoire. +
 
 
-* 2) *12simplicite.java* (16.5/20) : noté sur 17 selon le barème, le code est complet et rempli les test donnée initialement et ceux supplémentaire, cependant la fonction main est présente dans le fichier alors qu'elle ne doit pas y être. +
+* 2) *42sobriete.java* (17/20) : noté sur 18 selon le barème, le code est complet et rempli les test donnée initialement mais pas ceux supplémentaires. +
+Le code est assez sobre globalement, cependant les deux algorithmes récursifs pourrait beaucoup moins consommer de mémoire en utilisant une approche itérative. +
 
 
-* 3) *38simplicite.java* (15/20) : noté sur 18 selon le barème, le code est complet et rempli les test donnée initialement mais pas ceux supplémentaires. +
+* 3) *50sobriete.java* (16/20) : noté sur 20 selon le barème, le code est complet et rempli les test donnée initialement et ceux supplémentaire. +
+Les méthodes itératives ont des compléxité et des consommations de mémoire assez importantes. En effet l'algorithme RLE récursif à une complexité O(n^2 x itérations) et l'utilisations de la récursivité entraîne une consommation de mémoire importante. +
 
 
-
-* 4) *15sobriete.java* (0/20) : hors concours selon le barème, le code ne compile pas, de plus il est incomplet il manque deux des algorithmes principaux. +  
-
+* 4) *15sobriete.java* (0/20) : hors concours selon le barème, le code ne compile pas, de plus il est incomplet il manque deux des algorithmes principaux. +
